@@ -20,12 +20,7 @@ export default function App() {
       <Text style={{ fontSize: 40 }}>Hola, Coder! 👋</Text>
       <Text style={{ fontSize: 25, paddingTop: 20 }}>Este es otro texto</Text>
 
-      <Image
-        source={{
-          uri: "https://styles.redditmedia.com/t5_5blkvq/styles/communityIcon_t5ji6wuld2z71.jpg?format=pjpg&s=1672be49333cd14749784be8bbc3c968a033d8e0",
-        }}
-        style={styles.image}
-      />
+      <Image source={require("./assets/icon.png")} style={styles.image} />
 
       <TouchableOpacity onPress={handlePress} style={styles.button}>
         <Icon name="github" size={30} color="white" />
