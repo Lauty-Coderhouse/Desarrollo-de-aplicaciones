@@ -14,6 +14,9 @@ const IndexScreen = ({ navigation }) => {
       >
         <Text style={styles.buttonText}>Ir a la pantalla 2</Text>
       </TouchableOpacity>
+      <View style={styles.footer}>
+        <Text style={{ color: "white", fontSize: 20 }}>Lautaro Chavero</Text>
+      </View>
     </View>
   );
 };
@@ -39,6 +42,15 @@ const styles = StyleSheet.create({
     color: "#ffffff",
     fontSize: 16,
     fontFamily: "MadimiOne",
+  },
+  footer: {
+    position: "absolute",
+    bottom: 0,
+    backgroundColor: "black",
+    padding: 10,
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 
