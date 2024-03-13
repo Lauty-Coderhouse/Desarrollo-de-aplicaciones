@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Desafio-2-TS",
+    "name": "Desafio 2",
     "slug": "Desafio-2-TS",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,20 +11,25 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lautydev.desafio2"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72da9f44-8b76-4ba6-8f69-59b6fefd7cc1"
+      }
+    },
+    "owner": "desarrollo-de-aplicaciones-coderhouse"
   }
 }
