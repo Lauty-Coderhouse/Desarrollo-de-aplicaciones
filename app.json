@@ -8,14 +8,19 @@
     "userInterfaceStyle": "light",
     "extra": {
       "appName": "Desafio 3",
-      "apiUrl": "https://api.lauty.dev"
+      "apiUrl": "https://api.lauty.dev",
+      "eas": {
+        "projectId": "0b53483f-8d29-4af5-94c4-4b08e6a0af7d"
+      }
     },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,7 +28,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lautydev.desafio3"
     },
     "web": {
       "favicon": "./assets/icon.png"
